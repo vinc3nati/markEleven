@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bradius: 6px;
+  --primary-color: #ff3d68;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #00032d;
+  color: var(--primary-color);
+}
+
+.content {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 43.75rem;
+  padding: 2rem;
+}
+
+.heading {
+  text-transform: capitalize;
+  margin: 1.3rem 0;
+}
+
+.input_fields {
+  margin: auto;
+  width: 60%;
+}
+
+.input_fields label {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.input_fields input {
+  width: 100%;
+  padding: 0.7rem 1.2rem;
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: var(--bradius);
+  -webkit-border-radius: var(--bradius);
+  -moz-border-radius: var(--bradius);
+  -ms-border-radius: var(--bradius);
+  -o-border-radius: var(--bradius);
+}
+.input_fields input:focus {
+  border: 2px solid var(--primary-color);
+}
+
+.output_fields {
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+#btn {
+  cursor: pointer;
+  color: #fff;
+  background-color: transparent;
+  display: inline-block;
+  margin: 1.3rem;
+  padding: 0.7rem 1.28rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--bradius);
+  -webkit-border-radius: var(--bradius);
+  -moz-border-radius: var(--bradius);
+  -ms-border-radius: var(--bradius);
+  -o-border-radius: var(--bradius);
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+#btn:hover {
+  color: #00032d;
+  background-color: var(--primary-color);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem 1rem;
+}
+
+.footer-header {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-decoration: underline;
+}
+
+.social-links {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 0 0.5rem;
+}
+
+.link {
+  color: var(--primary-color);
+}
+
+.link:hover {
+  color: #7d1935;
+}
